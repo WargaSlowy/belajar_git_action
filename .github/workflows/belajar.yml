@@ -6,6 +6,6 @@ jobs:
     build:
         runs-on: ubuntu-latest
 
-    steps:
-        - name: panggil nama
-          run: echo "apa kabar"
+        steps:
+            - name: panggil nama
+              run: echo "apa kabar"
