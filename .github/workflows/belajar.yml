@@ -1,0 +1,11 @@
+name: "unitesting untuk belajar"
+
+on: [push, pull_request]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+    steps:
+        - name: panggil nama
+          run: echo "apa kabar"
