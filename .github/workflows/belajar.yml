@@ -9,3 +9,6 @@ jobs:
         steps:
             - name: panggil nama
               run: echo "apa kabar"
+
+            - name: buat sudo apt
+              run: apt-get update -y
